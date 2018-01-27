@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import ListContacts from './ListContacts'
+import React, { Component } from 'react';
+import ListContacts from './ListContacts';
 
 const contacts = [
   {
