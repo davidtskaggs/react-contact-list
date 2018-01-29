@@ -24,6 +24,17 @@ class App extends Component {
       }
     ]
   }
+  removeContact () => {
+    // Use if updating the new state based on the current state
+    this.setState(() ({
+
+    }))
+
+    // otherwise, use this setState
+    this.setState({
+
+    })
+  }
   render() {
     return (
       <div>
