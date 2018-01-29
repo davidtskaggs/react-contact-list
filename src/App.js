@@ -24,16 +24,11 @@ class App extends Component {
       }
     ]
   }
-  removeContact (contact) => {
+  removeContact = (contact) => {
     // Use if updating the new state based on the current state
-    this.setState((state) ({
-      contacts: state.contact.filter((c) => c.id !== contact.id)
+    this.setState((state) => ({
+      contacts: state.contacts.filter((c) => c.id !== contact.id)
     }))
-
-    // otherwise, use this setState
-    // this.setState({
-    //
-    // })
   }
   render() {
     return (
